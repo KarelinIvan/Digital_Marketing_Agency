@@ -2,6 +2,14 @@
     .container {
         padding: 0 15px;
     }
+    .services__items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__btn {
+        width: 160px;
+        height: 40px;
+    }
 }
 @media screen and (max-width: 400px) {
     .header__title {
