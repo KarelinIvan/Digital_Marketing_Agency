@@ -10,6 +10,8 @@ body {
 }
 :root {
     --white-color: #fff;
+    --grey-color: #9CA3AF;
+    --black-color: #000000;
 
     --font-family-montserrat: 'Montserrat', sans-serif;
 }
