@@ -1,6 +1,50 @@
+/* General */
 html {
     box-sizing: border-box;
 }
 *, *:before, *:after {
     box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+:root {
+    --white-color: #fff;
+
+    --font-family-montserrat: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 156px;
+}
+/* Header */
+.header {
+    background-color: #4694DC;
+    min-height: 500px;
+    padding-top: 82px;
+    padding-bottom: 82px;
+    font-family: var(--font-family-montserrat);
+    color: var(--white-color);
+}
+.header__title {
+    font-size: 56px;
+    font-weight: 600;
+    margin-bottom: 38px;
+}
+.header__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 390px;
+    margin-bottom: 45px;
+}
+.header__btn {
+    width: 194px;
+    height: 60px;
+    font-family: var(--font-family-montserrat);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
 }
