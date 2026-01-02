@@ -91,7 +91,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-.item__img {
+.services__img {
     align-self: center;
 }
 .item__title {
@@ -100,3 +100,15 @@ body {
     color: var(--grey-color);
 }
 /* Team */
+.team__items {
+}
+.team__item {
+}
+.team__img {
+}
+.team__block {
+}
+.team__title {
+}
+.team__text {
+}
